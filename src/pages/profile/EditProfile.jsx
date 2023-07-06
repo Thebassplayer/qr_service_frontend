@@ -45,7 +45,6 @@ const EditProfile = () => {
     async formData => {
       setIsLoading(true);
       try {
-        console.log("---formData @ EditProfile: ", formData);
         const data = await updateUser(formData);
         setIsLoading(false);
         return data;

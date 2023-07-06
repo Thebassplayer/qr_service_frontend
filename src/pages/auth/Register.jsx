@@ -87,7 +87,6 @@ const Register = () => {
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);
-      console.log(error.message);
     }
   };
 

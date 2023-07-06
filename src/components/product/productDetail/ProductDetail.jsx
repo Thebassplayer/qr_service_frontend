@@ -36,7 +36,6 @@ const ProductDetail = () => {
     }
 
     if (isError) {
-      console.log(message);
     }
   }, [isLoggedIn, isError, message]);
 

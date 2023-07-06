@@ -61,9 +61,7 @@ const ResetPassword = () => {
       const data = await resetPassword(userData, resetToken);
       toast.success(data.message);
       navigate("/login");
-    } catch (error) {
-      console.log(error.message);
-    }
+    } catch (error) {}
   };
 
   return (

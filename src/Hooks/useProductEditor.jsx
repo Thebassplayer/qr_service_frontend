@@ -24,18 +24,6 @@ const useProductEditor = (
   };
 
   const handleSubmit = async e => {
-    // e.preventDefault();
-    // const updatedProduct = { ...product }; // Create a copy of the product state
-    // console.log("updatedProduct @ useProductEditor.jsx: ", updatedProduct);
-    // const formData = new FormData();
-    // formData.append("name", updatedProduct?.name);
-    // formData.append("category", updatedProduct?.category);
-    // formData.append("quantity", updatedProduct?.quantity);
-    // formData.append("price", updatedProduct?.price);
-    // formData.append("description", description);
-    // if (productImage) {
-    //   formData.append("image", productImage);
-    // }
     e.preventDefault();
     const formData = new FormData();
     formData.append("name", product?.name);
