@@ -4,7 +4,7 @@
 // Components
 import Card from "../../card/Card";
 // Styles
-import "./productForm.scss";
+// import "./productForm.scss";
 
 const ProductForm = ({
   product,
