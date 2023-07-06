@@ -1,6 +1,6 @@
 // Rich text Editor
-import ReactQuill from "react-quill";
-import "react-quill/dist/quill.snow.css";
+// import ReactQuill from "react-quill";
+// import "react-quill/dist/quill.snow.css";
 // Components
 import Card from "../../card/Card";
 // Styles
@@ -76,13 +76,13 @@ const ProductForm = ({
           />
 
           <label>Product Description:</label>
-          <ReactQuill
+          {/* <ReactQuill
             theme="snow"
             value={description}
             onChange={setDescription}
             modules={ProductForm.modules}
             formats={ProductForm.formats}
-          />
+          /> */}
 
           <div className="--my">
             <button type="submit" className="--btn --btn-primary">
